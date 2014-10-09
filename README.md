@@ -3,6 +3,7 @@ protocol-buffers-demo
 
 A protocol buffers demo with PHP.
 
+```shell
 git clone https://github.com/betashepherd/protobuf.git
 
 ./configure --prefix=/usr/local/protobuf && make && make install
@@ -14,6 +15,7 @@ phpize && ./configure --with-php-config=/path/to/php-config && make && make inst
 git clone https://github.com/betashepherd/protoc-gen-php.git
 
 /usr/local/protobuf/bin/protoc --plugin=protoc-gen-php/bin/protoc-gen-php --php_out=proto-php-files -I. *.proto
+```
 
 ```php
 <?php
