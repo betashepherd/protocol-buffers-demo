@@ -14,6 +14,10 @@ phpize && ./configure --with-php-config=/path/to/php-config && make && make inst
 
 git clone https://github.com/betashepherd/protoc-gen-php.git
 
+curl -sS https://getcomposer.org/installer | php
+
+php composer.phar install
+
 /usr/local/protobuf/bin/protoc --plugin=protoc-gen-php/bin/protoc-gen-php --php_out=proto-php-files -I. *.proto
 ```
 
