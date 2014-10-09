@@ -1,4 +1,4 @@
-protocol-buffer-demo
+protocol-buffers-demo
 ====================
 
-A PHP protocol buffer demo.
+A protocol buffers demo with PHP.
