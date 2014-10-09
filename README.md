@@ -15,7 +15,7 @@ git clone https://github.com/betashepherd/protoc-gen-php.git
 
 /usr/local/protobuf/bin/protoc --plugin=protoc-gen-php/bin/protoc-gen-php --php_out=proto-php-files -I. *.proto
 
-`
+```php
 <?php
 
 require 'autoload.php';
@@ -65,4 +65,4 @@ if($body_len !== 0) {
 } else {
     print 'null response';
 }
-`
+```
